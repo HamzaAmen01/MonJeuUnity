@@ -2473,7 +2473,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e474009bbc20a6c4dbb85bcd30ba7427, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.13
+      value: 0.07
       objectReference: {fileID: 0}
     - target: {fileID: -8679921383154817045, guid: e474009bbc20a6c4dbb85bcd30ba7427, type: 3}
       propertyPath: m_LocalPosition.z
@@ -2510,6 +2510,14 @@ PrefabInstance:
     - target: {fileID: 919132149155446097, guid: e474009bbc20a6c4dbb85bcd30ba7427, type: 3}
       propertyPath: m_Name
       value: Standing W_Briefcase Idle
+      objectReference: {fileID: 0}
+    - target: {fileID: 5866666021909216657, guid: e474009bbc20a6c4dbb85bcd30ba7427, type: 3}
+      propertyPath: m_Controller
+      value: 
+      objectReference: {fileID: 9100000, guid: 22f90bf0cb34e634daf640dc66db3d94, type: 2}
+    - target: {fileID: 5866666021909216657, guid: e474009bbc20a6c4dbb85bcd30ba7427, type: 3}
+      propertyPath: m_AnimatePhysics
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6480261582547109219, guid: e474009bbc20a6c4dbb85bcd30ba7427, type: 3}
       propertyPath: m_LocalPosition.x
@@ -3051,7 +3059,7 @@ Transform:
   m_GameObject: {fileID: 1858059017}
   serializedVersion: 2
   m_LocalRotation: {x: 0.016071556, y: -0.9831245, z: 0.107186064, w: 0.14737384}
-  m_LocalPosition: {x: -1.73, y: 1.52, z: 2.64}
+  m_LocalPosition: {x: 1.8, y: 1.74, z: 2.59}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3691,14 +3699,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab876c3d39019554e9a1950a5d8b42c7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::CharacterControllerAnimation
-  animator: {fileID: 0}
-  rb: {fileID: 0}
-  moveSpeed: 5
-  rotationSpeed: 10
-  jumpForce: 5
-  inputDir: {x: 0, y: 0, z: 0}
-  jumpRequested: 0
-  currentSpeed: 0
 --- !u!54 &2135214674
 Rigidbody:
   m_ObjectHideFlags: 0
